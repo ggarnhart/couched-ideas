@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 
 export default function Privacy() {
   return (
@@ -34,12 +35,12 @@ export default function Privacy() {
         </div>
 
         <div className="mt-8">
-          <a 
+          <Link 
             href="/" 
             className="hover:underline text-blue-600"
           >
             ← Back to Home
-          </a>
+          </Link>
         </div>
       </div>
     </div>

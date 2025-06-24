@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -38,9 +39,9 @@ export default function Home() {
       </div>
 
       <footer className="py-4 text-center">
-        <a href="/privacy" className="text-sm text-gray-600 hover:underline">
+        <Link href="/privacy" className="text-sm text-gray-600 hover:underline">
           Privacy Policy
-        </a>
+        </Link>
       </footer>
     </div>
   );
