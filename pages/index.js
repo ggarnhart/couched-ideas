@@ -21,16 +21,19 @@ export default function Home() {
           <p className="my-2 text-lg">
             Small projects, often created on my couch.
           </p>
-          <div className="flex">
-            <a href="https://tablerunner.xyz" className="mr-4 hover:underline">
+          <div className="flex space-x-12">
+            <Link href="/uptown" className="hover:underline">
+              Uptown
+            </Link>
+            <a href="https://tablerunner.xyz" className="hover:underline">
               Table Runner
             </a>
-            <a href="https://ggarnhart.com" className="mr-4 hover:underline">
+            <a href="https://ggarnhart.com" className="hover:underline">
               Personal site
             </a>
             <a
               href="mailto:hello@couchedideas.com"
-              className="mr-4 hover:underline"
+              className="hover:underline"
             >
               Contact
             </a>
