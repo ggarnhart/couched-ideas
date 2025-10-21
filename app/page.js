@@ -7,8 +7,8 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen w-screen text-gray-900 bg-slate-100">
-      <div className="flex-grow flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center w-screen min-h-screen text-gray-900 bg-slate-100">
+      <div className="flex flex-col items-center justify-center flex-grow">
         <div>
           <h1 className="my-6 text-5xl font-light">Couched Ideas.</h1>
           <p className="my-2 text-lg">
@@ -18,16 +18,18 @@ export default function Home() {
             <Link href="/uptown" className="hover:underline">
               Uptown
             </Link>
-            <a href="https://tablerunner.xyz" className="hover:underline">
-              Table Runner
-            </a>
+            <div className="flex flex-col items-center">
+              <a href="https://tablerunner.xyz" className="hover:underline">
+                Table Runner
+              </a>
+              <span className="text-xs text-gray-500 mt-0.5">
+                acquired in early 2024
+              </span>
+            </div>
             <a href="https://ggarnhart.com" className="hover:underline">
               Personal site
             </a>
-            <a
-              href="mailto:hello@couchedideas.com"
-              className="hover:underline"
-            >
+            <a href="mailto:hello@couchedideas.com" className="hover:underline">
               Contact
             </a>
           </div>
