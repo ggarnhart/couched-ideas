@@ -20,7 +20,7 @@ export default function UptownSupport() {
 
         <div className="space-y-4 text-lg">
           <p>
-            Need help with Uptown? We're here to assist you.
+            Need help with Uptown? We&apos;re here to assist you.
           </p>
 
           <p>
@@ -34,7 +34,7 @@ export default function UptownSupport() {
           </p>
 
           <p>
-            We'll get back to you as soon as possible.
+            We&apos;ll get back to you as soon as possible.
           </p>
         </div>
       </div>
