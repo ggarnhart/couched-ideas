@@ -1,15 +1,13 @@
-import Head from "next/head";
 import Link from "next/link";
+
+export const metadata = {
+  title: "Uptown - Realtime NYC Transit",
+  description: "Uptown - Realtime NYC Transit App",
+};
 
 export default function Uptown() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-8 text-gray-900 bg-slate-100">
-      <Head>
-        <title>Uptown - Realtime NYC Transit</title>
-        <meta name="description" content="Uptown - Realtime NYC Transit App" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <div className="max-w-2xl">
         <Link
           href="/"

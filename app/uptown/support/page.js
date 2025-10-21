@@ -1,15 +1,13 @@
-import Head from "next/head";
 import Link from "next/link";
+
+export const metadata = {
+  title: "Support - Uptown",
+  description: "Uptown Support",
+};
 
 export default function UptownSupport() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-8 text-gray-900 bg-slate-100">
-      <Head>
-        <title>Support - Uptown</title>
-        <meta name="description" content="Uptown Support" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <div className="max-w-2xl">
         <Link
           href="/uptown"
